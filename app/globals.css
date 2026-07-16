@@ -21,6 +21,7 @@ header img {
   width: 260px;
   height: auto;
   margin-bottom: 20px;
+  border-radius: 20px;
 }
 
 h1 {
@@ -41,27 +42,33 @@ section {
   padding: 30px;
   margin-bottom: 25px;
   border-radius: 20px;
-  .buttons {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.buttons {
   display: flex;
   justify-content: center;
-  gap: 15px;
-  margin-top: 30px;
+  align-items: center;
+  gap: 25px;
+  margin-top: 35px;
+  margin-bottom: 20px;
   flex-wrap: wrap;
 }
 
 .buttons a {
+  display: inline-block;
   background: #0077ff;
   color: white;
   text-decoration: none;
-  padding: 14px 28px;
-  border-radius: 14px;
+  padding: 16px 32px;
+  border-radius: 16px;
   font-weight: bold;
-  transition: 0.3s;
+  font-size: 18px;
+  box-shadow: 0 8px 20px rgba(0, 119, 255, 0.25);
+  transition: all 0.3s ease;
 }
 
 .buttons a:hover {
   background: #005fd1;
-  transform: translateY(-2px);
-}
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  transform: translateY(-3px) scale(1.05);
 }
