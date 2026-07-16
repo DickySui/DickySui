@@ -41,5 +41,27 @@ section {
   padding: 30px;
   margin-bottom: 25px;
   border-radius: 20px;
+  .buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.buttons a {
+  background: #0077ff;
+  color: white;
+  text-decoration: none;
+  padding: 14px 28px;
+  border-radius: 14px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.buttons a:hover {
+  background: #005fd1;
+  transform: translateY(-2px);
+}
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
 }
