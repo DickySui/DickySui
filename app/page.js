@@ -8,7 +8,7 @@ export default function Home() {
           width="250"
         />
 
-        <h1>🐸 DickySui</h1>
+        <h1>DickySui</h1>
         <p>The meme coin powered by the community</p>
       </header>
 
