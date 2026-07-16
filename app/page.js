@@ -11,7 +11,7 @@ export default function Home() {
         <h1>Dicky_Sui</h1>
 
         <p>
-          The funniest meme coin on the Sui blockchain.
+          The funniest memecoin on the Sui blockchain.
         </p>
 
         <div className="buttons">
