@@ -20,7 +20,8 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            🚀 Buy Now
+            <img src="/cetus.png" alt="Cetus" />
+            Buy Now
           </a>
 
           <a
@@ -28,7 +29,8 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            𝕏 Follow on X
+            <img src="/x.png" alt="X" />
+            Follow on X
           </a>
 
           <a
@@ -36,7 +38,8 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            💬 Join Discord
+            <img src="/discord.png" alt="Discord" />
+            Join Discord
           </a>
         </div>
       </header>
@@ -46,8 +49,8 @@ export default function Home() {
 
         <p>
           DickySui is a community-driven meme coin built on the Sui blockchain.
-          Our mission is to bring together a fun, engaged and growing community
-          while embracing the power of memes and decentralized finance.
+          Our mission is to unite people through memes, community and the power
+          of decentralized finance.
         </p>
       </section>
 
