@@ -2,35 +2,49 @@ export default function Home() {
   return (
     <main>
       <header>
-        <img 
-          src="/image0.jpeg" 
+        <img
+          src="/image0.jpeg"
           alt="DickySui Logo"
-          width="250"
+          width="280"
         />
 
         <h1>DickySui</h1>
-        <p>The meme coin powered by the community</p>
+
+        <p>
+          The funniest meme coin on the Sui blockchain.
+        </p>
+
+        <div className="buttons">
+          <a href="#">Buy Now</a>
+          <a href="#">X</a>
+          <a href="#">Telegram</a>
+        </div>
       </header>
 
       <section>
-        <h2>Welcome to DickySui</h2>
+        <h2>About DickySui</h2>
+
         <p>
-          A meme coin created for fun, community and the Sui ecosystem.
+          DickySui is a community-driven meme coin built for fun, memes and the
+          future of the Sui ecosystem.
         </p>
       </section>
 
       <section>
         <h2>Tokenomics</h2>
-        <p>
-          Total Supply: Coming soon
-        </p>
+
+        <p>💰 Total Supply: Coming Soon</p>
+        <p>🔥 Liquidity: Locked</p>
+        <p>🚀 Community First</p>
       </section>
 
       <section>
-        <h2>Join the Community</h2>
-        <p>
-          Follow DickySui and become part of the movement.
-        </p>
+        <h2>Roadmap</h2>
+
+        <p>✅ Launch</p>
+        <p>⬜ Community Growth</p>
+        <p>⬜ Listings</p>
+        <p>⬜ Moon 🚀</p>
       </section>
     </main>
   );
