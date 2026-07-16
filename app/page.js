@@ -2,6 +2,12 @@ export default function Home() {
   return (
     <main>
       <header>
+        <img 
+          src="/image0.jpeg" 
+          alt="DickySui Logo"
+          width="250"
+        />
+
         <h1>🐸 DickySui</h1>
         <p>The meme coin powered by the community</p>
       </header>
