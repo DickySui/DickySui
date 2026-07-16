@@ -2,28 +2,28 @@ export default function Home() {
   return (
     <main>
       <header>
-        <h1>DickySui</h1>
-        <p>Bienvenido a mi espacio online</p>
+        <h1>🐸 DickySui</h1>
+        <p>The meme coin powered by the community</p>
       </header>
 
       <section>
-        <h2>Descubre DickySui</h2>
+        <h2>Welcome to DickySui</h2>
         <p>
-          Una nueva experiencia que estamos preparando para ti.
+          A meme coin created for fun, community and the Sui ecosystem.
         </p>
       </section>
 
       <section>
-        <h2>Galería</h2>
+        <h2>Tokenomics</h2>
         <p>
-          Aquí aparecerán nuestras imágenes y contenido.
+          Total Supply: Coming soon
         </p>
       </section>
 
       <section>
-        <h2>Contacto</h2>
+        <h2>Join the Community</h2>
         <p>
-          Próximamente podrás contactar y compartir contenido desde aquí.
+          Follow DickySui and become part of the movement.
         </p>
       </section>
     </main>
