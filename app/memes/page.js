@@ -20,7 +20,7 @@ export default function Memes() {
         <img src="/PHOTO-Dicky.png" alt="Logo" className="corner-logo" />
       </div>
 
-      <h1>😂 DickySui Meme Gallery</h1>
+      <h1>😂 Dicky_Sui Meme Gallery</h1>
 
       <p className="subtitle">
         The funniest memes on the Sui blockchain.
