@@ -48,7 +48,7 @@ export default function Home() {
   target="_blank"
   rel="noopener noreferrer"
 >
-  <img src="/tiktok.jpg" alt="TikTok" />
+  <img src="/TikTok.jpg" alt="TikTok" />
   Follow on TikTok
 </a>
         </div>
