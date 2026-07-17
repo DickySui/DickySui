@@ -117,3 +117,36 @@ section {
     transform: translateY(0px);
   }
 }
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.card {
+  background: white;
+  border-radius: 20px;
+  padding: 35px;
+  text-align: center;
+  text-decoration: none;
+  color: #111;
+  box-shadow: 0 10px 25px rgba(0,0,0,.1);
+  transition: .3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 18px 35px rgba(0,0,0,.18);
+}
+
+.card h3 {
+  font-size: 28px;
+  margin-bottom: 15px;
+  color: #0077ff;
+}
+
+.card p {
+  font-size: 17px;
+  color: #555;
+}
