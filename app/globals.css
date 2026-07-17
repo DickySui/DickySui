@@ -2,17 +2,17 @@ body { margin: 0; font-family: Arial, sans-serif; background: linear-gradient(to
 main { min-height: 100vh; padding: 40px 20px; max-width: 1000px; margin: auto; }
 header { text-align: center; margin-bottom: 50px; }
 
-/* --- LOGO Y TÍTULO ALINEADOS (Tamaños originales) --- */
+/* --- LOGO Y TÍTULO ALINEADOS --- */
 .header-content {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px; /* Aumentado ligeramente para dar aire al logo grande */
+  gap: 30px;
   margin-bottom: 20px;
 }
 
 .logo-3d {
-  width: 260px; /* Tamaño original devuelto */
+  width: 260px;
   height: 260px;
   border-radius: 50%;
   object-fit: cover;
@@ -34,7 +34,7 @@ section { background: rgba(255, 255, 255, 0.9); padding: 30px; margin-bottom: 25
 .buttons a img { width: 16px; height: 16px; object-fit: contain; }
 
 .logo-title { 
-  font-size: 90px; /* Tamaño original devuelto */
+  font-size: 90px; 
   font-weight: 900; 
   letter-spacing: 4px; 
   margin: 0; 
@@ -44,7 +44,7 @@ section { background: rgba(255, 255, 255, 0.9); padding: 30px; margin-bottom: 25
   animation: float 3s ease-in-out infinite; 
 }
 
-.subtitle { font-size: 24px; font-weight: bold; color: #004d99; margin-bottom: 35px; }
+.subtitle { font-size: 24px; font-weight: bold; color: #004d99; margin-bottom: 35px; text-align: center; }
 
 @keyframes float { 0% { transform: translateY(0px); } 50% { transform: translateY(-8px); } 100% { transform: translateY(0px); } }
 .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 25px; margin-top: 30px; }
@@ -57,9 +57,21 @@ section { background: rgba(255, 255, 255, 0.9); padding: 30px; margin-bottom: 25
 .memes-page { max-width: 1200px; margin: auto; padding: 50px 20px; }
 .memes-page h1 { text-align: center; font-size: 52px; margin-bottom: 10px; }
 .memes-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 35px; }
+
 .meme-card { background: white; border-radius: 22px; overflow: hidden; box-shadow: 0 12px 30px rgba(0,0,0,.12); transition: .3s; }
 .meme-card:hover { transform: translateY(-8px); box-shadow: 0 20px 45px rgba(0,0,0,.18); }
-.meme-card img { width: 100%; height: 340px; object-fit: cover; display: block; transition: 0.35s ease; cursor: pointer; }
+
+/* Ajuste de imagen corregido */
+.meme-card img { 
+  width: 100%; 
+  height: 300px; 
+  object-fit: contain; 
+  background-color: #f8f8f8;
+  display: block; 
+  transition: 0.35s ease; 
+  cursor: pointer; 
+}
+
 .meme-card:hover img { transform: scale(1.05); }
 .meme-card button { width: 100%; padding: 18px; border: none; background: #0077ff; color: white; font-size: 18px; font-weight: bold; cursor: pointer; transition: .3s; }
 .meme-card button:hover { background: #005fd1; }
@@ -68,3 +80,8 @@ section { background: rgba(255, 255, 255, 0.9); padding: 30px; margin-bottom: 25
 .share-buttons { display:flex; justify-content:center; gap:12px; flex-wrap:wrap; }
 .share-buttons a, .share-buttons button { background:#0077ff; color:white; padding:10px 18px; border-radius:12px; text-decoration:none; border:none; cursor:pointer; font-weight:bold; transition:.3s; }
 .share-buttons a:hover, .share-buttons button:hover { background:#005fd1; transform:translateY(-2px); }
+
+/* BOTÓN VOLVER */
+.back-button-container { padding: 20px 0; }
+.back-button { background: #0077ff; color: white; padding: 10px 20px; border-radius: 12px; text-decoration: none; font-weight: bold; transition: .3s; display: inline-block; }
+.back-button:hover { background: #005fd1; transform: translateY(-2px); }
