@@ -8,11 +8,11 @@ export default function Home() {
           width="280"
         />
 
-        <h1>DICKY</h1>
+      <h1 className="logo-title">$DICKY</h1>
 
-        <p>
-          The funniest memecoin on the Sui blockchain.
-        </p>
+<p className="subtitle">
+    The funniest memecoin on the Sui blockchain 🚀
+</p>
 
         <div className="buttons">
           <a
