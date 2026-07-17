@@ -55,12 +55,13 @@ export default function Home() {
       </section>
 
       <section>
-        <h2>Tokenomics</h2>
+  <h2>💰 Tokenomics</h2>
 
-        <p>💰 Total Supply: Coming Soon</p>
-        <p>🔥 Liquidity: Locked</p>
-        <p>🚀 Community Driven</p>
-      </section>
+  <p>✅<strong>Total Supply:</strong> 1,000,000,000 $DICKY</p>
+  <p>✅<strong>Token Distribution:</strong> 85% Initial Liquidity & 15% Creator reserve (marketing and project development) </p>
+  <p>✅<strong>LP Burn (Liquidity Burn):</strong> No one can withdraw the floor of the project. 🚀</p>
+  <p>✅<strong>Contract Renunciation:</strong> Once launched, we cannot issue more tokens or modify the rules. 🔒</p>
+</section>
 
       <section>
         <h2>Roadmap</h2>
