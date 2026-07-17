@@ -43,6 +43,14 @@ export default function Home() {
             <img src="/discord.png" alt="Discord" />
             Join Discord
           </a>
+              <a
+  href="https://www.tiktok.com/@dicky_sui?"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <img src="/tiktok.jpg" alt="TikTok" />
+  Follow on TikTok
+</a>
         </div>
       </header>
 
