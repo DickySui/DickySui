@@ -1,6 +1,9 @@
 export default function Genesis() {
   return (
     <main>
+      {/* Logo en esquina superior derecha */}
+      <img src="/PHOTO-Dicky.png" alt="Logo" className="corner-logo" />
+
       {/* Botón de volver */}
       <div className="back-button-container">
         <a href="/" className="back-button">⬅ Back to Home</a>
@@ -18,7 +21,7 @@ export default function Genesis() {
           href="/Genesis_League_Guide.pdf"
           target="_blank"
           rel="noopener noreferrer"
-          className="back-button" // Reutilizamos el estilo del botón
+          className="back-button"
           style={{ display: "inline-block", marginTop: "10px" }}
         >
           📄 Open Genesis League Guide
