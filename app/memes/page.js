@@ -1,13 +1,22 @@
 "use client";
 
 const memes = [
-  { id: 1, image: "/memes/meme1.jpeg" },
-  { id: 2, image: "/memes/meme2.jpeg" },
+  {
+    id: 1,
+    image: "/memes/meme1.jpeg",
+  },
+  {
+    id: 2,
+    image: "/memes/meme2.jpeg",
+  },
 ];
 
 export default function Memes() {
   return (
     <main className="memes-page">
+      {/* Logo en esquina superior derecha */}
+      <img src="/PHOTO-Dicky.png" alt="Logo" className="corner-logo" />
+
       {/* Botón de volver */}
       <div className="back-button-container">
         <a href="/" className="back-button">⬅ Back to Home</a>
@@ -38,6 +47,7 @@ export default function Memes() {
                 <span>❤️ Coming Soon</span>
                 <span>👁️ Coming Soon</span>
               </div>
+
               <div className="share-buttons">
                 <button
                   onClick={() => {
