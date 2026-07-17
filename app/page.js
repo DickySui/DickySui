@@ -6,6 +6,7 @@ export default function Home() {
           src="/PHOTO-Dicky.png"
           alt="DickySui Logo"
           width="280"
+          className="logo-3d"
         />
 
       <h1 className="logo-title">$DICKY</h1>
