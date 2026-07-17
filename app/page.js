@@ -8,7 +8,7 @@ export default function Home() {
           width="280"
         />
 
-        <h1>Dicky_Sui</h1>
+        <h1>DICKY</h1>
 
         <p>
           The funniest memecoin on the Sui blockchain.
