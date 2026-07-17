@@ -96,10 +96,10 @@ section { background: rgba(255, 255, 255, 0.9); padding: 30px; margin-bottom: 25
   position: absolute;
   top: 20px;
   right: 20px;
-  width: 60px; /* Tamaño pequeño para que no moleste */
-  height: 60px;
+  width: 80px; /* Tamaño pequeño para que no moleste */
+  height: 80px;
   z-index: 1000;
   border-radius: 50%;
-  border: 2px solid rgba(255, 255, 255, 0.5);
+  border: 3px solid rgba(255, 255, 255, 0.5);
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
