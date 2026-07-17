@@ -3,7 +3,7 @@ export default function Home() {
     <main>
       <header>
         <img
-          src="/image0.jpeg"
+          src="/PHOTO-Dicky.jpg"
           alt="DickySui Logo"
           width="280"
         />
