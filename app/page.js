@@ -74,12 +74,17 @@ export default function Home() {
       <section>
   <h2>🚀 Explore DickySui</h2>
 
-  <div className="cards">
+<div className="cards">
 
-    <a href="#" className="card">
-      <h3>📄 Litepaper</h3>
-      <p>Learn everything about the Dicky universe.</p>
-    </a>
+  <a
+    href="/Dickycoin_Litepaper_en.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="card"
+  >
+    <h3>📄 Litepaper</h3>
+    <p>Read the official DickySui Litepaper.</p>
+  </a>
 
     <a href="#" className="card">
       <h3>😂 Memes</h3>
