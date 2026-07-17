@@ -90,3 +90,16 @@ section { background: rgba(255, 255, 255, 0.9); padding: 30px; margin-bottom: 25
 .back-button-container { padding: 20px 0; }
 .back-button { background: #0077ff; color: white; padding: 10px 20px; border-radius: 12px; text-decoration: none; font-weight: bold; transition: .3s; display: inline-block; }
 .back-button:hover { background: #005fd1; transform: translateY(-2px); }
+
+/* Logo en esquina superior derecha */
+.corner-logo {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 60px; /* Tamaño pequeño para que no moleste */
+  height: 60px;
+  z-index: 1000;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
