@@ -72,14 +72,27 @@ export default function Home() {
 </section>
 
       <section>
-        <h2>Roadmap</h2>
+  <h2>🚀 Explore DickySui</h2>
 
-        <p>✅ Launch</p>
-        <p>⬜ Grow the Community</p>
-        <p>⬜ Marketing Campaigns</p>
-        <p>⬜ Exchange Listings</p>
-        <p>⬜ To the Moon 🚀</p>
-      </section>
+  <div className="cards">
+
+    <a href="#" className="card">
+      <h3>📄 Litepaper</h3>
+      <p>Learn everything about the Dicky universe.</p>
+    </a>
+
+    <a href="#" className="card">
+      <h3>😂 Memes</h3>
+      <p>Discover every meme created by the community.</p>
+    </a>
+
+    <a href="#" className="card">
+      <h3>🏆 Genesis League Dicky</h3>
+      <p>The future expansion of the Dicky ecosystem.</p>
+    </a>
+
+  </div>
+</section>
     </main>
   );
 }
