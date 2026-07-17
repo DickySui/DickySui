@@ -79,3 +79,41 @@ section {
   height: 16px;
   object-fit: contain;
 }
+
+.logo-title {
+  font-size: 90px;
+  font-weight: 900;
+  letter-spacing: 4px;
+  margin: 15px 0;
+  color: #FFD700;
+  text-transform: uppercase;
+
+  text-shadow:
+    0 2px 0 #d4a400,
+    0 4px 0 #c69500,
+    0 6px 0 #b8860b,
+    0 8px 15px rgba(0,0,0,0.35);
+
+  animation: float 3s ease-in-out infinite;
+}
+
+.subtitle {
+  font-size: 24px;
+  font-weight: bold;
+  color: #004d99;
+  margin-bottom: 35px;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-8px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
