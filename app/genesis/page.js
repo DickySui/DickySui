@@ -1,12 +1,10 @@
 export default function Genesis() {
   return (
     <main>
-      {/* Logo en esquina superior derecha */}
-      <img src="/PHOTO-Dicky.png" alt="Logo" className="corner-logo" />
-
-      {/* Botón de volver */}
-      <div className="back-button-container">
+      {/* Contenedor alineado: Botón a la izquierda, Logo a la derecha */}
+      <div className="header-navigation">
         <a href="/" className="back-button">⬅ Back to Home</a>
+        <img src="/PHOTO-Dicky.png" alt="Logo" className="corner-logo" />
       </div>
 
       <section>
