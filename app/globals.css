@@ -285,3 +285,34 @@ background:#005fd1;
 transform:translateY(-2px);
 
 }
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 18px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.share-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.share-buttons button {
+  background: #0077ff;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 12px 22px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.share-buttons button:hover {
+  background: #005fd1;
+  transform: translateY(-2px);
+}
