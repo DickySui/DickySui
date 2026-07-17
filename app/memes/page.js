@@ -79,6 +79,7 @@ const memes = [
   { id: 73, image: "/memes/meme73.jpg" },
   { id: 74, image: "/memes/meme74.jpg" },
   { id: 75, image: "/memes/meme75.jpg" },
+  { id: 76, image: "/memes/meme76.jpg" },
 ];
 
 export default function Memes() {
