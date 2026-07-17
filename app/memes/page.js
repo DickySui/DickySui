@@ -1,47 +1,55 @@
+"use client";
+
+const memes = [
+  {
+    id: 1,
+    image: "/memes/meme1.jpeg",
+  },
+  {
+    id: 2,
+    image: "/memes/meme2.jpeg",
+  },
+];
+
 export default function Memes() {
-  const memes = [
-    "/memes/meme1.jpeg",
-    "/memes/meme2.jpeg",
-  ];
-
-  const shareMeme = async (meme) => {
-    const url = window.location.origin + meme;
-
-    if (navigator.share) {
-      try {
-        await navigator.share({
-          title: "DickySui Meme",
-          text: "Check out this DickySui meme!",
-          url,
-        });
-      } catch (e) {}
-    } else {
-      navigator.clipboard.writeText(url);
-      alert("Link copied to clipboard!");
-    }
-  };
-
   return (
-    <main>
-      <h1>😂 DickySui Memes</h1>
+    <main className="memes-page">
 
-      <p>
-        Welcome to the official DickySui meme collection.
+      <h1>😂 DickySui Meme Gallery</h1>
+
+      <p className="subtitle">
+        The funniest memes on the Sui blockchain.
       </p>
 
       <div className="memes-grid">
-        {memes.map((meme, index) => (
-          <div className="meme-card" key={index}>
-            <a href={meme} target="_blank" rel="noopener noreferrer">
-              <img src={meme} alt={`Meme ${index + 1}`} />
+
+        {memes.map((meme) => (
+
+          <div className="meme-card" key={meme.id}>
+
+            <a
+              href={meme.image}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={meme.image}
+                alt="Dicky Meme"
+              />
             </a>
 
-            <button onClick={() => shareMeme(meme)}>
-              🔁 Share
+            <button
+              onClick={() => navigator.clipboard.writeText(window.location.origin + meme.image)}
+            >
+              🔁 Share Meme
             </button>
+
           </div>
+
         ))}
+
       </div>
+
     </main>
   );
 }
