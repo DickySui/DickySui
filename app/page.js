@@ -86,10 +86,10 @@ export default function Home() {
     <p>Read the official DickySui Litepaper.</p>
   </a>
 
-    <a href="#" className="card">
-      <h3>😂 Memes</h3>
-      <p>Discover every meme created by the community.</p>
-    </a>
+    <a href="/memes" className="card">
+  <h3>😂 Memes</h3>
+  <p>Discover every meme created by the community.</p>
+</a>
 
    <a href="/genesis" className="card">
   <h3>🏆 Genesis League Dicky</h3>
