@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <main>
       <header>
-        {/* Nuevo contenedor para alinear logo y título */}
+        {/* Contenedor flexible para alinear logo y título en horizontal */}
         <div className="header-content">
           <img
             src="/PHOTO-Dicky.png"
