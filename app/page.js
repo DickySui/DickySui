@@ -79,7 +79,7 @@ export default function Home() {
       </section>
 
       <section>
-        <h2>🚀 Explore DickySui</h2>
+        <h2>🚀 Explore Dicky_Sui</h2>
         <div className="cards">
           <a
             href="/Dickycoin_Litepaper_en.pdf"
