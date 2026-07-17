@@ -48,9 +48,9 @@ export default function Home() {
         <h2>About DickySui</h2>
 
         <p>
-          DickySui is a community-driven meme coin built on the Sui blockchain.
-          Our mission is to unite people through memes, community and the power
-          of decentralized finance.
+          Dickycoin is born on the SUI network with a clear misión: To bring humor and mischief back to the ecosystem. We are not a scalability solution or a revolucionary DeFi platform; we are a blue carácter with glasses, wings, and an aerodynamic structure designed for only one thing: To always go up.
+We do not have the official seal of SUI  (yet), but we werw born with the firm intention of earning it meme by meme. We are not the mascot that SUI chose, but we are the mascot that SUI deserves.
+.
         </p>
       </section>
 
