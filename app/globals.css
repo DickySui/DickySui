@@ -9,6 +9,7 @@ header { text-align: center; margin-bottom: 50px; }
   align-items: center;
   gap: 30px;
   margin-bottom: 20px;
+  flex-wrap: wrap; /* Permite que el logo y título se acomoden en pantallas pequeñas */
 }
 
 .logo-3d {
@@ -22,6 +23,13 @@ header { text-align: center; margin-bottom: 50px; }
 }
 
 .logo-3d:hover { transform: translateY(-8px) scale(1.05); box-shadow: 0 20px 45px rgba(0, 0, 0, 0.4); }
+
+/* --- AJUSTES PARA MÓVILES (Evita desplazamiento horizontal) --- */
+@media (max-width: 600px) {
+  .header-content { gap: 15px; }
+  .logo-3d { width: 140px; height: 140px; }
+  .logo-title { font-size: 45px !important; }
+}
 
 h1 { font-size: 56px; margin-bottom: 10px; }
 p { font-size: 20px; }
@@ -56,16 +64,15 @@ section { background: rgba(255, 255, 255, 0.9); padding: 30px; margin-bottom: 25
 /* MEMES PAGE */
 .memes-page { max-width: 1200px; margin: auto; padding: 50px 20px; }
 .memes-page h1 { text-align: center; font-size: 52px; margin-bottom: 10px; }
-.memes-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 35px; }
+.memes-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 35px; }
 
-.meme-card { background: white; border-radius: 22px; overflow: hidden; box-shadow: 0 12px 30px rgba(0,0,0,.12); transition: .3s; }
+.meme-card { background: white; border-radius: 22px; overflow: hidden; box-shadow: 0 12px 30px rgba(0,0,0,.12); transition: .3s; display: flex; flex-direction: column; }
 .meme-card:hover { transform: translateY(-8px); box-shadow: 0 20px 45px rgba(0,0,0,.18); }
 
-/* Ajuste de imagen corregido */
 .meme-card img { 
   width: 100%; 
-  aspect-ratio: 1 / 1;    /* Esto hace que la imagen sea siempre cuadrada (proporción 1:1) */
-  object-fit: cover;      /* Esto rellena el cuadrado sin estirar la imagen */
+  aspect-ratio: 1 / 1; 
+  object-fit: cover; 
   display: block; 
   transition: 0.35s ease; 
   cursor: pointer; 
@@ -73,7 +80,7 @@ section { background: rgba(255, 255, 255, 0.9); padding: 30px; margin-bottom: 25
 .meme-card:hover img { transform: scale(1.05); }
 .meme-card button { width: 100%; padding: 18px; border: none; background: #0077ff; color: white; font-size: 18px; font-weight: bold; cursor: pointer; transition: .3s; }
 .meme-card button:hover { background: #005fd1; }
-.meme-actions { padding:20px; }
+.meme-actions { padding: 20px; }
 .stats { display:flex; justify-content:center; gap:25px; font-size:20px; font-weight:bold; margin-bottom:18px; color: #333; }
 .share-buttons { display:flex; justify-content:center; gap:12px; flex-wrap:wrap; }
 .share-buttons a, .share-buttons button { background:#0077ff; color:white; padding:10px 18px; border-radius:12px; text-decoration:none; border:none; cursor:pointer; font-weight:bold; transition:.3s; }
