@@ -91,10 +91,10 @@ export default function Home() {
       <p>Discover every meme created by the community.</p>
     </a>
 
-    <a href="#" className="card">
-      <h3>🏆 Genesis League Dicky</h3>
-      <p>The future expansion of the Dicky ecosystem.</p>
-    </a>
+   <a href="/genesis" className="card">
+  <h3>🏆 Genesis League Dicky</h3>
+  <p>Explore the official Genesis League guide and artwork.</p>
+</a>
 
   </div>
 </section>
