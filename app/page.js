@@ -2,18 +2,19 @@ export default function Home() {
   return (
     <main>
       <header>
-        <img
-          src="/PHOTO-Dicky.png"
-          alt="DickySui Logo"
-          width="280"
-          className="logo-3d"
-        />
+        {/* Nuevo contenedor para alinear logo y título */}
+        <div className="header-content">
+          <img
+            src="/PHOTO-Dicky.png"
+            alt="DickySui Logo"
+            className="logo-3d"
+          />
+          <h1 className="logo-title">$DICKY</h1>
+        </div>
 
-      <h1 className="logo-title">$DICKY</h1>
-
-<p className="subtitle">
-    The funniest memecoin on the Sui blockchain 🚀
-</p>
+        <p className="subtitle">
+          The funniest memecoin on the Sui blockchain 🚀
+        </p>
 
         <div className="buttons">
           <a
@@ -46,59 +47,53 @@ export default function Home() {
       </header>
 
       <section>
-  <h2>About DickySui</h2>
-
-  <p>
-    Dicky is born on the Sui blockchain with a clear mission: to bring humor
-    and mischief back to the ecosystem. We are not a scalability solution or
-    a revolutionary DeFi platform; we are a blue character with glasses,
-    wings, and an aerodynamic structure designed for only one thing:
-    <strong> To always go up.</strong>
-  </p>
-
-  <p>
-    We do not have the official seal of Sui (yet), but we were born with the
-    firm intention of earning it, meme by meme. We are not the mascot that
-    Sui chose, but we are the mascot that Sui deserves.
-  </p>
-</section>
+        <h2>About DickySui</h2>
+        <p>
+          Dicky is born on the Sui blockchain with a clear mission: to bring humor
+          and mischief back to the ecosystem. We are not a scalability solution or
+          a revolutionary DeFi platform; we are a blue character with glasses,
+          wings, and an aerodynamic structure designed for only one thing:
+          <strong> To always go up.</strong>
+        </p>
+        <p>
+          We do not have the official seal of Sui (yet), but we were born with the
+          firm intention of earning it, meme by meme. We are not the mascot that
+          Sui chose, but we are the mascot that Sui deserves.
+        </p>
+      </section>
 
       <section>
-  <h2>💰 Tokenomics</h2>
-
-  <p>✅<strong>Total Supply:</strong> 1,000,000,000 $DICKY</p>
-  <p>✅<strong>Token Distribution:</strong> 85% Initial Liquidity & 15% Creator reserve (marketing and project development). </p>
-  <p>✅<strong>LP Burn (Liquidity Burn):</strong> No one can withdraw the floor of the project. 🚀</p>
-  <p>✅<strong>Contract Renunciation:</strong> Once launched, we cannot issue more tokens or modify the rules. 🔒</p>
-</section>
+        <h2>💰 Tokenomics</h2>
+        <p>✅<strong>Total Supply:</strong> 1,000,000,000 $DICKY</p>
+        <p>✅<strong>Token Distribution:</strong> 85% Initial Liquidity & 15% Creator reserve (marketing and project development). </p>
+        <p>✅<strong>LP Burn (Liquidity Burn):</strong> No one can withdraw the floor of the project. 🚀</p>
+        <p>✅<strong>Contract Renunciation:</strong> Once launched, we cannot issue more tokens or modify the rules. 🔒</p>
+      </section>
 
       <section>
-  <h2>🚀 Explore DickySui</h2>
+        <h2>🚀 Explore DickySui</h2>
+        <div className="cards">
+          <a
+            href="/Dickycoin_Litepaper_en.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="card"
+          >
+            <h3>📄 Litepaper</h3>
+            <p>Read the official DickySui Litepaper.</p>
+          </a>
 
-<div className="cards">
+          <a href="/memes" className="card">
+            <h3>😂 Memes</h3>
+            <p>Discover every meme created by the community.</p>
+          </a>
 
-  <a
-    href="/Dickycoin_Litepaper_en.pdf"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="card"
-  >
-    <h3>📄 Litepaper</h3>
-    <p>Read the official DickySui Litepaper.</p>
-  </a>
-
-    <a href="/memes" className="card">
-  <h3>😂 Memes</h3>
-  <p>Discover every meme created by the community.</p>
-</a>
-
-   <a href="/genesis" className="card">
-  <h3>🏆 Genesis League Dicky</h3>
-  <p>Explore the official Genesis League guide and artwork.</p>
-</a>
-
-  </div>
-</section>
+          <a href="/genesis" className="card">
+            <h3>🏆 Genesis League Dicky</h3>
+            <p>Explore the official Genesis League guide and artwork.</p>
+          </a>
+        </div>
+      </section>
     </main>
   );
 }
