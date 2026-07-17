@@ -10,7 +10,7 @@ export default function Memes() {
     <main className="memes-page">
       {/* Botón de volver */}
       <div className="back-button-container">
-        <a href="/" className="back-button">⬅ Volver al Inicio</a>
+        <a href="/" className="back-button">⬅ Back to Home</a>
       </div>
 
       <h1>😂 DickySui Meme Gallery</h1>
