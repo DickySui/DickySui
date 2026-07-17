@@ -86,20 +86,41 @@ section { background: rgba(255, 255, 255, 0.9); padding: 30px; margin-bottom: 25
 .share-buttons a, .share-buttons button { background:#0077ff; color:white; padding:10px 18px; border-radius:12px; text-decoration:none; border:none; cursor:pointer; font-weight:bold; transition:.3s; }
 .share-buttons a:hover, .share-buttons button:hover { background:#005fd1; transform:translateY(-2px); }
 
-/* BOTÓN VOLVER */
-.back-button-container { padding: 20px 0; }
-.back-button { background: #0077ff; color: white; padding: 10px 20px; border-radius: 12px; text-decoration: none; font-weight: bold; transition: .3s; display: inline-block; }
+/* BOTÓN VOLVER Y LOGO ALINEADOS */
+.header-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  width: 100%;
+}
+
+.back-button { 
+  background: #0077ff; 
+  color: white; 
+  padding: 10px 20px; 
+  border-radius: 12px; 
+  text-decoration: none; 
+  font-weight: bold; 
+  transition: .3s; 
+  display: inline-block; 
+}
+
 .back-button:hover { background: #005fd1; transform: translateY(-2px); }
 
-/* Logo en esquina superior derecha */
 .corner-logo {
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  width: 80px; /* Tamaño pequeño para que no moleste */
+  width: 80px; 
   height: 80px;
-  z-index: 1000;
   border-radius: 50%;
   border: 3px solid rgba(255, 255, 255, 0.5);
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  display: block;
+}
+
+/* Ajuste móvil para asegurar que el logo no sea gigante en pantallas muy estrechas */
+@media (max-width: 600px) {
+  .corner-logo {
+    width: 60px;
+    height: 60px;
+  }
 }
