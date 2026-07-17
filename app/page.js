@@ -45,15 +45,22 @@ export default function Home() {
       </header>
 
       <section>
-        <h2>About DickySui</h2>
+  <h2>About DickySui</h2>
 
-        <p>
-          Dickycoin is born on the SUI network with a clear misión: To bring humor and mischief back to the ecosystem. We are not a scalability solution or a revolucionary DeFi platform; we are a blue carácter with glasses, wings, and an aerodynamic structure designed for only one thing: To always go up.</p>
+  <p>
+    Dicky is born on the Sui blockchain with a clear mission: to bring humor
+    and mischief back to the ecosystem. We are not a scalability solution or
+    a revolutionary DeFi platform; we are a blue character with glasses,
+    wings, and an aerodynamic structure designed for only one thing:
+    <strong> To always go up.</strong>
+  </p>
 
-          We do not have the official seal of SUI  (yet), but we werw born with the firm intention of earning it meme by meme. We are not the mascot that SUI chose, but we are the mascot that SUI deserves.
-.
-        </p>
-      </section>
+  <p>
+    We do not have the official seal of Sui (yet), but we were born with the
+    firm intention of earning it, meme by meme. We are not the mascot that
+    Sui chose, but we are the mascot that Sui deserves.
+  </p>
+</section>
 
       <section>
   <h2>💰 Tokenomics</h2>
