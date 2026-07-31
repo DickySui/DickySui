@@ -15,8 +15,9 @@ export default function Home() {
             <div className="contract-address">
 
       <span>
-        0xf862476e7d8469f637c38e5db5fa207044ab436d22b186a81493fd2992d4cbc9::dicky::DICKY
-      </span>
+  Contract:
+  <strong> 0xf86247...2d4cbc9::DICKY</strong>
+</span>
 
       <button
         className="copy-button"
