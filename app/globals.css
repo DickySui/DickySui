@@ -145,7 +145,10 @@ section { background: rgba(255, 255, 255, 0.9); padding: 30px; margin-bottom: 25
 
   box-shadow: 0 6px 15px rgba(0,0,0,.08);
 }
-
+.contract-address strong {
+  color: #0077ff;
+  font-weight: bold;
+}
 .copy-button {
   background: #0077ff;
   color: white;
