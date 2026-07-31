@@ -80,9 +80,14 @@ const memes = [
   { id: 74, image: "/memes/meme74.jpg" },
   { id: 75, image: "/memes/meme75.jpg" },
   { id: 76, image: "/memes/meme76.jpg" },
-{ id: 77, image: "/memes/696B2B11-B9E1-4412-A029-6C045E88F37A.png" },
-  { id: 78, image: "/memes/IMG_9697.jpeg" },
-  { id: 79, image: "/memes/IMG_9708.jpeg" },
+{ id: 77, image: "/memes/meme77.jpg" },
+  { id: 78, image: "/memes/meme78.jpg" },
+  { id: 79, image: "/memes/meme79.jpg" },
+  { id: 80, image: "/memes/meme80.jpg" },
+  { id: 81, image: "/memes/meme81.jpg" },
+  { id: 82, image: "/memes/meme82.jpg" },
+  { id: 83, image: "/memes/meme83.jpg" },
+  { id: 84, image: "/memes/meme84.jpg" },
 ];
 
 export default function Memes() {
