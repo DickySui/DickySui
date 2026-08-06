@@ -12,27 +12,6 @@ export default function Home() {
           <h1 className="logo-title">$DICKY</h1>
         </div>
 
-            <div className="contract-address">
-
-      <span>
-  Contract:
-  <strong> 0xf86247...2d4cbc9::DICKY</strong>
-</span>
-
-      <button
-        className="copy-button"
-        onClick={() => {
-          navigator.clipboard.writeText(
-            "0xf862476e7d8469f637c38e5db5fa207044ab436d22b186a81493fd2992d4cbc9::dicky::DICKY"
-          );
-          alert("Contract copied!");
-        }}
-      >
-        📋
-      </button>
-
-    </div>
-
     <p className="subtitle">
       The funniest memecoin on the Sui blockchain 🚀
     </p>
