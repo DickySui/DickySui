@@ -123,46 +123,5 @@ section { background: rgba(255, 255, 255, 0.9); padding: 30px; margin-bottom: 25
     width: 60px;
     height: 60px;
   }
-}
-.contract-address {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
 
-  margin: 18px auto 25px;
-  max-width: 900px;
-
-  padding: 12px 18px;
-
-  background: rgba(255,255,255,0.75);
-  border-radius: 14px;
-
-  font-family: monospace;
-  font-size: 14px;
-
-  word-break: break-all;
-
-  box-shadow: 0 6px 15px rgba(0,0,0,.08);
-}
-.contract-address strong {
-  color: #0077ff;
-  font-weight: bold;
-}
-.copy-button {
-  background: #0077ff;
-  color: white;
-  border: none;
-  border-radius: 10px;
-  width: 42px;
-  height: 42px;
-  cursor: pointer;
-  font-size: 18px;
-  transition: .25s;
-  flex-shrink: 0;
-}
-
-.copy-button:hover {
-  background: #005fd1;
-  transform: scale(1.08);
 }
